@@ -1,0 +1,48 @@
+{
+  "projects": [
+    {
+      "title": "Sample Project 01",
+      "featured": true,
+      "final_look": "",
+      "concept_images": [],
+      "description": "Placeholder — replace this with a short description of the project: the idea behind it, what inspired you, and how you developed it.",
+      "fabrics": "Cotton voile, organza",
+      "time_taken": "3 weeks",
+      "cost": "₹2,500",
+      "date": "2026-10-20"
+    },
+    {
+      "title": "Sample Project 02",
+      "featured": true,
+      "final_look": "",
+      "concept_images": [],
+      "description": "Placeholder — replace this with a short description of the project: the idea behind it, what inspired you, and how you developed it.",
+      "fabrics": "Linen, hand embroidery",
+      "time_taken": "2 weeks",
+      "cost": "",
+      "date": "2026-09-14"
+    },
+    {
+      "title": "Sample Project 03",
+      "featured": true,
+      "final_look": "",
+      "concept_images": [],
+      "description": "Placeholder — replace this with a short description of the project: the idea behind it, what inspired you, and how you developed it.",
+      "fabrics": "Silk satin",
+      "time_taken": "10 days",
+      "cost": "₹1,800",
+      "date": "2026-08-30"
+    },
+    {
+      "title": "Sample Project 04",
+      "featured": false,
+      "final_look": "",
+      "concept_images": [],
+      "description": "Placeholder — replace this with a short description of the project: the idea behind it, what inspired you, and how you developed it.",
+      "fabrics": "Denim, upcycled trims",
+      "time_taken": "1 month",
+      "cost": "",
+      "date": "2026-07-18"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+# Pages CMS editor setup — this decides what you can edit at app.pagescms.org
+media:
+  input: media
+  output: /media
+
+content:
+  - name: site
+    label: About me, skills, education & contact
+    type: file
+    path: site.json
+    format: json
+    fields:
+      - name: name
+        label: Name
+        type: string
+        required: true
+      - name: title
+        label: Title (shown under your name)
+        type: string
+      - name: tagline
+        label: Tagline (one short line in italics)
+        type: string
+      - name: about
+        label: About me
+        type: text
+      - name: availability
+        label: Availability badge (leave empty to hide)
+        type: string
+      - name: city
+        label: City
+        type: string
+      - name: portrait
+        label: Portrait photo (optional — shown in the arch on the opening screen)
+        type: image
+      - name: education
+        label: Education
+        type: object
+        list: true
+        fields:
+          - name: degree
+            label: Degree / course
+            type: string
+          - name: institute
+            label: Institute
+            type: string
+          - name: years
+            label: Years (e.g. 2027 – 2031)
+            type: string
+          - name: details
+            label: Details (optional)
+            type: text
+      - name: skills
+        label: Skills
+        type: string
+        list: true
+      - name: resume
+        label: Resume (PDF)
+        type: file
+      - name: email
+        label: Email
+        type: string
+      - name: linkedin
+        label: LinkedIn link
+        type: string
+      - name: contact_heading
+        label: Contact heading
+        type: string
+
+  - name: projects
+    label: Projects
+    type: file
+    path: projects.json
+    format: json
+    fields:
+      - name: projects
+        label: Projects (drag to reorder — the top ones appear first)
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Project name
+            type: string
+            required: true
+          - name: featured
+            label: Show on home page (up to 3)
+            type: boolean
+          - name: final_look
+            label: Final look photo (first image)
+            type: image
+          - name: concept_images
+            label: Concept development images (in order)
+            type: image
+            list: true
+          - name: description
+            label: Short description
+            type: text
+          - name: fabrics
+            label: Fabrics used
+            type: string
+          - name: time_taken
+            label: Time taken (e.g. 3 weeks)
+            type: string
+          - name: cost
+            label: Total cost (optional — leave empty to hide)
+            type: string
+          - name: date
+            label: Upload date
+            type: date

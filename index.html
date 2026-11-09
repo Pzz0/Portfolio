@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prachiti Zemse — Fashion Design Portfolio</title>
+  <meta name="description" content="Portfolio of Prachiti Zemse, fashion design student at NIFT Mumbai.">
+  <meta property="og:title" content="Prachiti Zemse — Fashion Design Portfolio">
+  <meta property="og:description" content="Fashion design student at NIFT Mumbai.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <script>(function(){var t;try{t=localStorage.getItem('theme')}catch(e){}if(t!=='light'&&t!=='dark'){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}document.documentElement.setAttribute('data-theme',t)})();</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top" data-field="name">Prachiti Zemse</a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+      <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg>
+    </button>
+  </header>
+
+  <main id="main">
+    <!-- HERO / ABOUT -->
+    <section class="hero" id="top">
+      <div class="hero-mono" data-speed="0.45" aria-hidden="true">PZ</div>
+      <div class="hero-rule hero-rule--a" data-speed="0.2" aria-hidden="true"></div>
+      <div class="hero-rule hero-rule--b" data-speed="0.32" aria-hidden="true"></div>
+
+      <div class="hero-inner">
+        <div class="hero-text" data-speed="0.18">
+          <p class="eyebrow"><span data-field="city">Navi Mumbai</span> · Portfolio</p>
+          <h1 class="hero-name" data-name-split>Prachiti Zemse</h1>
+          <p class="hero-title" data-field="title">Fashion Design Student</p>
+          <p class="hero-tagline" data-field="tagline"></p>
+          <p class="hero-about" data-field="about"></p>
+          <p class="pill" data-field="availability" data-hide-empty></p>
+        </div>
+
+        <figure class="hero-figure" data-speed="0.08">
+          <div class="arch">
+            <img class="arch-img" alt="" hidden>
+            <span class="arch-mono" aria-hidden="true">P<em>z</em></span>
+          </div>
+          <svg class="badge" viewBox="0 0 120 120" aria-hidden="true" data-rotate>
+            <defs><path id="badge-circle" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>
+            <text><textPath href="#badge-circle" textLength="286" lengthAdjust="spacing">FASHION DESIGN · NIFT MUMBAI · </textPath></text>
+          </svg>
+        </figure>
+      </div>
+
+      <a class="scroll-cue" href="#education"><span>Scroll</span><i aria-hidden="true"></i></a>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-num">01</span>
+          <h2 class="section-title">Education</h2>
+        </header>
+        <ol class="edu-list" data-list="education"></ol>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-num">02</span>
+          <h2 class="section-title">Skills</h2>
+        </header>
+        <ul class="skill-grid" data-list="skills"></ul>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="projects-head">
+          <header class="section-head reveal">
+            <span class="section-num">03</span>
+            <h2 class="section-title">Selected work</h2>
+          </header>
+          <a class="view-all reveal" href="projects.html">
+            <span class="view-all-text">View all projects <small data-count></small></span>
+            <span class="view-all-circle" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </span>
+          </a>
+        </div>
+        <div class="project-grid" data-projects="featured"></div>
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section class="section section--alt" id="resume">
+      <div class="container resume-row reveal">
+        <div>
+          <span class="section-num">04</span>
+          <h2 class="section-title">Resume</h2>
+          <p class="muted">A one-page summary of my education, skills and work.</p>
+        </div>
+        <a class="btn" data-resume href="#" target="_blank" rel="noopener">View resume</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="container reveal">
+        <span class="section-num">05</span>
+        <h2 class="contact-heading" data-field="contact_heading">Let's create something together.</h2>
+        <a class="contact-email" data-email href="#"></a>
+        <ul class="contact-links">
+          <li><a data-linkedin href="#" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+          <li><span data-field="city"></span></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span>© <span data-year></span> <span data-field="name"></span></span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
