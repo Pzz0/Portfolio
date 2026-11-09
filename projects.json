@@ -1,10 +1,14 @@
 {
   "projects": [
     {
-      "title": "Project 01",
+      "title": "Off-shoulder serene black",
       "featured": true,
+      "final_look": "/media/IMG_0530.jpeg",
+      "concept_images": [
+        "/media/IMG_1888.jpeg"
+      ],
       "description": "Placeholder — replace this with a short description of the project: the idea behind it, what inspired you, and how you developed it.",
-      "fabrics": "Cotton voile, organza",
+      "fabrics": "organza, lace",
       "time_taken": "3 weeks",
       "cost": "₹2,500",
       "date": "2026-10-20"
